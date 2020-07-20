@@ -1,4 +1,5 @@
 import actionTypes from '../constants/actionTypes';
+import runtimeEnv from '@mars/heroku-js-runtime-env';
 
 
 function affirmationFetched(affirm){
@@ -11,7 +12,7 @@ function affirmationFetched(affirm){
 export function fetchAffirmation(){
 
     return dispatch => {
-        return fetch(`http://localhost:8080/affirmations`, {
+        return fetch(`${env.REACT_APP_API_URL}/affirmations`, {
             method: 'GET',
             headers: {
                 'Accept': 'application/json',
@@ -35,7 +36,7 @@ export function fetchAffirmation(){
 export function sendAffirmation(data){
     console.log(JSON.stringify(data))
     return dispatch => {
-        return fetch(`http://localhost:8080/affirmations`, {
+        return fetch(`${env.REACT_APP_API_URL}/affirmations`, {
             method: 'POST',
             headers: {
                 'Accept': 'application/json',
