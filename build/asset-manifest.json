@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3f261dc2.chunk.css",
+    "main.js": "/static/js/main.f6f55052.chunk.js",
+    "main.js.map": "/static/js/main.f6f55052.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.09b85ec0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.09b85ec0.js.map",
+    "static/js/2.4b919cda.chunk.js": "/static/js/2.4b919cda.chunk.js",
+    "static/js/2.4b919cda.chunk.js.map": "/static/js/2.4b919cda.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.195c0f2145a29fcab0569a1186c6310c.js": "/precache-manifest.195c0f2145a29fcab0569a1186c6310c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.3f261dc2.chunk.css.map": "/static/css/main.3f261dc2.chunk.css.map",
+    "static/js/2.4b919cda.chunk.js.LICENSE.txt": "/static/js/2.4b919cda.chunk.js.LICENSE.txt",
+    "static/media/affirmLogo.svg": "/static/media/affirmLogo.7a9fd30e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09b85ec0.js",
+    "static/js/2.4b919cda.chunk.js",
+    "static/css/main.3f261dc2.chunk.css",
+    "static/js/main.f6f55052.chunk.js"
+  ]
+}

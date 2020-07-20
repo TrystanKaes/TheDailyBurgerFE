@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 392 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-163,-129)">
+        <g transform="matrix(0.992873,-1.21431e-17,3.66027e-16,0.968025,30.7597,-9.64583)">
+            <rect x="134.16" y="156.068" width="390.874" height="261.257" style="fill:rgb(29,30,24);fill-opacity:0;"/>
+            <clipPath id="_clip1">
+                <rect x="134.16" y="156.068" width="390.874" height="261.257"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g transform="matrix(0.610507,0.459535,-0.558733,0.780891,272.786,-72.2114)">
+                    <rect x="94.178" y="76.225" width="465.506" height="373.278" style="fill:rgb(29,30,24);fill-opacity:0;"/>
+                    <clipPath id="_clip2">
+                        <rect x="94.178" y="76.225" width="465.506" height="373.278"/>
+                    </clipPath>
+                    <g clip-path="url(#_clip2)">
+                        <g transform="matrix(0.985192,-0.716476,0.893499,0.790002,-224.12,254.673)">
+                            <rect x="119.818" y="179.513" width="371.875" height="58.534" style="fill:rgb(199,234,228);"/>
+                        </g>
+                        <g transform="matrix(0.985192,-0.716476,0.893499,0.790002,-157.535,311.938)">
+                            <rect x="119.818" y="179.513" width="371.875" height="58.534" style="fill:rgb(29,30,24);"/>
+                        </g>
+                        <g transform="matrix(0.985192,-0.716476,0.893499,0.790002,-91.9852,369.007)">
+                            <rect x="119.818" y="179.513" width="371.875" height="58.534" style="fill:rgb(253,150,169);"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

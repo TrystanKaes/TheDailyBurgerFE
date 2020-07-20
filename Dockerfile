@@ -13,6 +13,9 @@ RUN npm install
 COPY . .
 
 # Expose the appropriate port
-EXPOSE 8080
+EXPOSE 8082
 
-CMD [ "node", "server.js" ]
+RUN npm run-script build
+RUN npm install -g serve
+
+CMD [ "serve","-l","8082","build"]

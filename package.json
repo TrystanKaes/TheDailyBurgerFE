@@ -1,27 +1,44 @@
 {
-  "name": "DailyBurgerAPI",
-  "version": "1.0.0",
-  "description": "The Daily Burger API",
-  "main": "server.js",
-  "scripts": {
-    "test": "mocha --timeout 10000 --exit"
-  },
-  "author": "Trystan Kaes",
-  "license": "ISC",
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "bcrypt-nodejs": "0.0.3",
-    "body-parser": "^1.19.0",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "express-pino-logger": "^5.0.0",
-    "react-scripts": "^3.4.1",
-    "twilio": "^3.47.0"
+    "@reduxjs/toolkit": "^1.4.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "persist": "^0.2.7",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "react-scripts": "3.4.1",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0"
   },
-  "devDependencies": {
-    "btoa": "^1.2.1",
-    "chai": "^4.2.0",
-    "chai-http": "^4.3.0",
-    "dotenv": "^6.2.0",
-    "mocha": "^5.2.0"
+  "optionalDependencies": {
+    "fsevents": "*"
+  },
+  "scripts": {
+    "start": "export PORT=8082 && react-scripts start",
+    "build": "export PORT=8082 && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "proxy": "http://server:8080",
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
