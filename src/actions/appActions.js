@@ -10,7 +10,7 @@ function affirmationFetched(affirm){
 }
 
 export function fetchAffirmation(){
-
+    const env = runtimeEnv();
     return dispatch => {
         return fetch(`${env.REACT_APP_API_URL}/affirmations`, {
             method: 'GET',
@@ -34,7 +34,8 @@ export function fetchAffirmation(){
 }
 
 export function sendAffirmation(data){
-    console.log(JSON.stringify(data))
+    // console.log(JSON.stringify(data))
+    const env = runtimeEnv();
     return dispatch => {
         return fetch(`${env.REACT_APP_API_URL}/affirmations`, {
             method: 'POST',
